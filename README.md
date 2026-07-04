@@ -132,7 +132,7 @@ Fruitify/
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/yourusername/Fruitify.git
+git clone https://github.com/shrutika-mhatre/Fruit_Quality_Detection_App.git
 cd Fruitify
 ```
 
