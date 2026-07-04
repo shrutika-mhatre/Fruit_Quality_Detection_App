@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F1F8E9"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🍎"
+        android:textSize="80sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fruitify"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#2E7D32"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apple Disease Detector"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#2E7D32"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:text="📷  Capture with Camera"
+        android:textSize="16sp"
+        android:textColor="#388E3C"
+        android:backgroundTint="#388E3C"
+        android:layout_marginBottom="20dp"
+        android:elevation="4dp"
+        style="@style/Widget.MaterialComponents.Button" />
+
+    <Button
+        android:id="@+id/btnGallery"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:text="🖼️  Select from Gallery"
+        android:textSize="16sp"
+        android:textColor="#388E3C"
+        android:backgroundTint="#C8E6C9"
+        android:elevation="4dp"
+        style="@style/Widget.MaterialComponents.Button" />
+
+
+
+</LinearLayout>
